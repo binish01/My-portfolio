@@ -13,3 +13,9 @@ html,body{
     display: flex;
     flex-direction: column;
 }
+
+.navbar{
+    height: 80px;
+    display: flex;
+    padding: 0 50px;
+}
