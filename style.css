@@ -129,6 +129,15 @@ Hero Section
     margin-bottom: 30px;
 }
 
+/* About Section*/
+
+.about-section{
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-color: brown;
+    color: aliceblue;
+}
 
 
 
