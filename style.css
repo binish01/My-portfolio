@@ -18,7 +18,7 @@ html,body{
     height: 80px;
     display: flex;
     padding: 0 50px;
-    background-color: rgb(159, 139, 184);
+    background-color: rgb(108, 42, 42);
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -136,7 +136,7 @@ Hero Section
     display: flex;
     overflow: hidden;
     background-color: brown;
-    color: aliceblue;
+    color: rgb(228, 234, 239);
 }
 
 
