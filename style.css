@@ -139,6 +139,31 @@ Hero Section
     color: rgb(228, 234, 239);
 }
 
+.about-me-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    text-align: justify;
+}
+
+.about-me-section h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.about-me-section p{
+    line-height: 1.8;
+    font-size: 18px;
+    overflow: hidden;
+
+}
+
+.skills-section{
+    
+}
+
 
 
 
