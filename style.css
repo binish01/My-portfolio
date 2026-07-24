@@ -18,7 +18,7 @@ html,body{
     height: 80px;
     display: flex;
     padding: 0 50px;
-    background-color: rgb(108, 42, 42);
+    background-color: rgb(229, 221, 221);
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -155,16 +155,41 @@ Hero Section
 
 .about-me-section p{
     line-height: 1.8;
-    font-size: 18px;
+    font-size: 20px;
     overflow: hidden;
 
 }
 
 .skills-section{
-    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
+.skills-section h1{
+      font-size: 48px;
+    margin-bottom: 18px;
+}
 
+.my-skills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width:50%;
+    list-style: none;
+}
 
+.my-skills li{
+    background-color:rgba(194, 192, 87, 0.512);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
 
-
+.my-skills li:hover{
+    background-color: bisque;
+    transform: translate(-5px);
+}
